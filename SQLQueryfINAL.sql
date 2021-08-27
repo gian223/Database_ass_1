@@ -1,4 +1,7 @@
-USE Hospital
+CREATE DATABASE HostpitalWaitList;
+GO
+
+USE HostpitalWaitList;
 GO
 
 DROP TABLE Department

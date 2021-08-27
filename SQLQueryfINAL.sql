@@ -178,7 +178,7 @@ CREATE TABLE Referral (
     SurgeonID INT FOREIGN KEY REFERENCES Surgeon(SurgeonID) NOT NULL,
     DepartmentID INT FOREIGN KEY REFERENCES Department(DepartmentID) NOT NULL,
     FSADate DATE,
-    AddedWaitlist DATE
+    AddedWaitlist DATE NOT NULL
 );
 
 INSERT INTO Referral VALUES

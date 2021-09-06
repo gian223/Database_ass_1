@@ -1,0 +1,16 @@
+SurgeonID(PK),DepartmentID(FK),SurgeonName
+1,1,Simon Frampton
+2,2,Peri Duffy
+3,2,Steve Renison
+4,3,Richard Cain
+5,3,Philip Mitchell
+6,4,Evelyn Rae
+7,3,Greta McLean
+8,5,Nabaz Sayeed
+9,1,John Martin
+10,5,Michael Lewis
+11,1,Karen Reid
+12,4,Lindsay Nelson
+13,2,Andy La Salle
+14,5,Andrew Hood
+15,4,Robert Patrick

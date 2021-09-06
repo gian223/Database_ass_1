@@ -4,6 +4,7 @@ GO
 USE HostpitalWaitList;
 GO
 
+
 DROP TABLE Department
 DROP TABLE Doctor
 DROP TABLE Patient
@@ -69,6 +70,9 @@ CREATE TABLE Patient (
     Gender VARCHAR(7) NOT NULL,
     DoctorID INT FOREIGN KEY REFERENCES Doctor(DoctorID) NOT NULL,
 );
+
+
+
 INSERT INTO Patient VALUES
     ('QDX4955','Spense','Pringuer','1972-02-14','Male',1),
     ('ECP7715','Shirline','Van der Kruys','1992-12-27','Female',2),
